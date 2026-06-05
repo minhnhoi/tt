@@ -1,0 +1,279 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456",
+      "name": "Admin",
+      "role": "admin",
+      "email": "admin@hrm.com",
+      "phone": "0900000001",
+      "department": "Ban giám đốc",
+      "position": "Quản trị viên",
+      "bio": "Quản trị hệ thống HRM.",
+      "joinedAt": "2024-01-01",
+      "avatar": null
+    },
+    {
+      "id": 2,
+      "username": "nhanvien",
+      "password": "123456",
+      "name": "Trần Thị Nhân Viên",
+      "role": "employee",
+      "email": "nhanvien@hrm.com",
+      "phone": "0900000002",
+      "department": "Nhân sự",
+      "position": "Nhân viên",
+      "bio": "Tài khoản nhân viên dùng để test.",
+      "joinedAt": "2025-03-15",
+      "avatar": null
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "department": "Kỹ thuật",
+      "position": "Lập trình viên",
+      "status": "Đang làm",
+      "email": "an.nv@hrm.com",
+      "phone": "0901234567",
+      "joinDate": "01/03/2022"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "department": "Marketing",
+      "position": "Chuyên viên",
+      "status": "Đang làm",
+      "email": "binh.tt@hrm.com",
+      "phone": "0902345678",
+      "joinDate": "15/06/2021"
+    },
+    {
+      "id": 3,
+      "name": "Lê Văn Cường",
+      "department": "Kế toán",
+      "position": "Kế toán viên",
+      "status": "Nghỉ phép",
+      "email": "cuong.lv@hrm.com",
+      "phone": "0903456789",
+      "joinDate": "10/01/2020"
+    },
+    {
+      "id": 4,
+      "name": "Phạm Thị Dung",
+      "department": "Nhân sự",
+      "position": "Chuyên viên HR",
+      "status": "Đang làm",
+      "email": "dung.pt@hrm.com",
+      "phone": "0904567890",
+      "joinDate": "20/09/2023"
+    },
+    {
+      "id": 5,
+      "name": "Hoàng Văn Em",
+      "department": "Kỹ thuật",
+      "position": "Kỹ sư",
+      "status": "Đang làm",
+      "email": "em.hv@hrm.com",
+      "phone": "0905678901",
+      "joinDate": "05/04/2022"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Kỹ thuật",
+      "manager": "Nguyễn Văn An",
+      "count": 12,
+      "status": "Hoạt động",
+      "description": "Phụ trách phát triển sản phẩm, hệ thống nội bộ và xử lý kỹ thuật.",
+      "createdAt": "2026-01-05"
+    },
+    {
+      "id": 2,
+      "name": "Marketing",
+      "manager": "Trần Thị Bình",
+      "count": 6,
+      "status": "Hoạt động",
+      "description": "Phụ trách truyền thông, nội dung và chiến dịch quảng bá.",
+      "createdAt": "2026-01-10"
+    },
+    {
+      "id": 3,
+      "name": "Kế toán",
+      "manager": "Lê Văn Cường",
+      "count": 4,
+      "status": "Hoạt động",
+      "description": "Theo dõi tài chính, hóa đơn, lương thưởng và báo cáo thu chi.",
+      "createdAt": "2026-01-12"
+    },
+    {
+      "id": 4,
+      "name": "Nhân sự",
+      "manager": "Phạm Thị Dung",
+      "count": 5,
+      "status": "Hoạt động",
+      "description": "Quản lý hồ sơ nhân viên, tuyển dụng, đào tạo và chính sách nội bộ.",
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": 5,
+      "name": "Kinh doanh",
+      "manager": "Hoàng Văn Em",
+      "count": 8,
+      "status": "Tạm dừng",
+      "description": "Phụ trách khách hàng, hợp đồng và phát triển thị trường.",
+      "createdAt": "2026-02-20"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "name": "Phạm Thị Dung",
+      "date": "2026-05-22",
+      "checkIn": "07:55",
+      "checkOut": "17:05",
+      "status": "Đúng giờ"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Văn An",
+      "date": "2026-05-22",
+      "checkIn": "08:02",
+      "checkOut": "17:10",
+      "status": "Đúng giờ"
+    },
+    {
+      "id": 3,
+      "name": "Lê Văn Cường",
+      "date": "2026-05-22",
+      "checkIn": "--",
+      "checkOut": "--",
+      "status": "Nghỉ phép"
+    },
+    {
+      "id": 4,
+      "name": "Trần Thị Bình",
+      "date": "2026-05-22",
+      "checkIn": "08:45",
+      "checkOut": "17:00",
+      "status": "Đi muộn"
+    },
+    {
+      "id": 5,
+      "name": "Phạm Thị Dung",
+      "date": "2026-05-21",
+      "checkIn": "--",
+      "checkOut": "--",
+      "status": "Nghỉ phép"
+    },
+    {
+      "id": 6,
+      "name": "Nguyễn Văn An",
+      "date": "2026-05-21",
+      "checkIn": "08:00",
+      "checkOut": "17:00",
+      "status": "Đúng giờ"
+    },
+    {
+      "id": 7,
+      "name": "Lê Văn Cường",
+      "date": "2026-05-21",
+      "checkIn": "09:10",
+      "checkOut": "17:30",
+      "status": "Đi muộn"
+    },
+    {
+      "id": 8,
+      "name": "Trần Thị Bình",
+      "date": "2026-05-21",
+      "checkIn": "07:50",
+      "checkOut": "17:15",
+      "status": "Đúng giờ"
+    },
+    {
+      "id": 9,
+      "name": "Phạm Thị Dung",
+      "date": "2026-05-20",
+      "checkIn": "08:05",
+      "checkOut": "17:02",
+      "status": "Đúng giờ"
+    },
+    {
+      "id": 10,
+      "name": "Nguyễn Văn An",
+      "date": "2026-05-20",
+      "checkIn": "08:30",
+      "checkOut": "17:00",
+      "status": "Đi muộn"
+    },
+    {
+      "id": 11,
+      "name": "Lê Văn Cường",
+      "date": "2026-05-20",
+      "checkIn": "07:45",
+      "checkOut": "17:00",
+      "status": "Đúng giờ"
+    },
+    {
+      "id": 12,
+      "name": "Trần Thị Bình",
+      "date": "2026-05-20",
+      "checkIn": "--",
+      "checkOut": "--",
+      "status": "Nghỉ phép"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "type": "Nghỉ phép năm",
+      "from": "20/05/2026",
+      "to": "22/05/2026",
+      "days": 3,
+      "reason": "Việc gia đình",
+      "status": "Đã duyệt"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "type": "Nghỉ bệnh",
+      "from": "21/05/2026",
+      "to": "21/05/2026",
+      "days": 1,
+      "reason": "Khám bệnh",
+      "status": "Đã duyệt"
+    },
+    {
+      "id": 3,
+      "name": "Hoàng Văn Em",
+      "type": "Nghỉ không lương",
+      "from": "25/05/2026",
+      "to": "27/05/2026",
+      "days": 3,
+      "reason": "Du lịch cá nhân",
+      "status": "Từ chối"
+    },
+    {
+      "id": 4,
+      "name": "Phạm Thị Dung",
+      "type": "Nghỉ phép năm",
+      "from": "01/06/2026",
+      "to": "03/06/2026",
+      "days": 3,
+      "reason": "Nghỉ hè",
+      "status": "Đã duyệt"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "text": "Hệ thống fake server đã được khởi tạo từ database.json.",
+      "icon": "✅",
+      "time": "2026-06-05T08:00:00.000Z"
+    }
+  ]
+}
